@@ -1,0 +1,9 @@
+# OAuth tokens (auto-generated on first login)
+token.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
