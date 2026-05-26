@@ -1,5 +1,5 @@
-# Google Calendar Editor  EN[[README_EN.md]]
-
+# Google Calendar Editor  
+[[README_EN.md]]
 通过 Google Calendar API 批量创建日历事件，支持自动去重。
 
 ## 前置要求
