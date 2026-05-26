@@ -1,12 +1,22 @@
 # Google Calendar Editor  
 [EN](./README_EN.md)
 
-通过 Google Calendar API 批量创建日历事件，支持自动去重。
+一款通过 Google Calendar API 批量创建日历事件的 SKILL 。支持自动去重，支持各类 AI Agent (Claude Code,Codex等)。
+
+
+## 一键安装
+复制下方提示词直接丢给你的 Agent 就好
+
+```帮我安装google-calendar-editor。请把 https://github.com/chrischan0737-sketch/google-calendar-editor 克隆到~/.claude/skills/google-calendar-editor,安装完成后检查 SKILL.md 和 create_events.py 是否存在，然后安装依赖并验证 create_events.py 可运行。以后我说“添加到我的日历” 类似的话就调用这个skill```
+
 
 ## 前置要求
 
 1. 在 [Google Cloud Console](https://console.cloud.google.com/) 启用 Calendar API，下载 OAuth 凭据保存到 `~/.claude/mcp/google-calendar/credentials.json`
 2. 首次运行会打开浏览器进行 OAuth 授权，之后 token 自动缓存在 `~/.claude/mcp/google-calendar/token.json`
+
+
+
 
 ## 用法
 
